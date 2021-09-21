@@ -20,6 +20,10 @@ img {
 	width: 290px;
 	object-fit:fill;
 }
+.cont{
+	display: flex;
+	flex-direction: row;
+}
 .wrapper {
 	width: 940px;
 	margin: 20px auto 20px auto;
@@ -50,6 +54,8 @@ nav li a {
 nav li a:hover, nav li a.current {
 	color: #01a1dd;}
 section.courses {
+	display: flex;
+	flex-direction: column;
 	float: left;
 	width: 659px;
 	border-right: 1px solid #eeeeee;
@@ -75,7 +81,7 @@ aside {
 	float: left;
 	padding: 0px 0px 0px 20px;}
 aside section a {
-	display: block;
+	display: flex;
 	padding: 10px;
 	border-bottom: 1px solid #eeeeee;}
 aside section a:hover {
@@ -113,6 +119,7 @@ footer {
 				  </ul>
 				 </nav>
 			   </header>
+			   <div class="cont">
 			   <section class="courses">
 				<iframe width="600" height="345" src="https://www.youtube.com/embed/mTPhFUQnpAU"
                 title="YouTube video player" frameborder="0"
@@ -169,7 +176,7 @@ footer {
 				  <p>Warung Tegal<br />
 				  di seluruh indonesia
 				</section>
-			  </aside>
+			  </aside></div>
 			  <footer>
 				&copy; 2021 Arkan Aulia F
 			</footer>
